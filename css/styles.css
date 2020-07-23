@@ -1,0 +1,26 @@
+body {
+    font-size: 14px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+}
+
+#header-nav {
+    background-color: #6BA368;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-text {
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    color: white;
+}
+
+#logo-text:hover {
+    text-decoration: none;
+    color: black;
+}
