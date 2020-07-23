@@ -48,3 +48,29 @@ a:hover, a:focus {
 .custom-toggler.navbar-toggler {
     border-color: rgb(255,255,255);
 } 
+
+#navbarDropdown, .dropdown-menu, .dropdown-item, #nav-item-color {
+    color: #319177;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.dropdown-menu, #nav-item-color {
+    font-size: 1.1em;
+}
+
+#navbarDropdown:hover, .dropdown-menu:hover, .dropdown-item:hover, #nav-item-color:hover {
+    color: #004953;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar .dropdown-menu.fade-up{ top:180%;  }
+	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+}	
