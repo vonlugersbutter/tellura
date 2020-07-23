@@ -11,20 +11,32 @@
 </head>
 <body>
     <header>
-        <nav id="header-nav" class="navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <a href="index.html" id="logo-text">
-                        <h1 id="logo-text" alt="Tellura">tellura</h1>
-                    </a>
-                    
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar">&#8942</span>
-                      </button>
-                </div>
+        <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light .bg-transparent">
+            <a class="navbar-brand" href="index.html" id="logo-text">tellura</a>
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+              </ul>
+              </form>
             </div>
-        </nav>
+          </nav>
     </header>
 
     <script src="js/jquery-3.5.1.min.js"></script>

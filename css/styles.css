@@ -1,3 +1,6 @@
+/*https://coolors.co/00424b-004953-319177-f7e7ce-c44536-9e3a2e-772e25*/
+/*Merriweather and Open Sans*/
+
 body {
     font-size: 14px;
     color: black;
@@ -15,9 +18,13 @@ h1 {
 }
 
 #logo-text {
-    margin-top: 10px;
     font-family: 'Merriweather', serif;
-    font-size: 1.5em;
+    font-size: 2em;
+    color: #319177;
+    margin-right: 100px;
+}
+
+ .nav-item > nav {
     color: #319177;
 }
 
@@ -25,3 +32,19 @@ h1 {
     text-decoration: none;
     color: #004953;
 }
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(49,145,119,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,73,83,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+  
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,255,255);
+} 
