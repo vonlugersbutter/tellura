@@ -9,18 +9,19 @@ h1 {
 }
 
 #header-nav {
-    background-color: #6BA368;
+    background-color: white;
     border-radius: 0;
     border: 0;
 }
 
 #logo-text {
+    margin-top: 10px;
     font-family: 'Merriweather', serif;
-    font-size: 30px;
-    color: white;
+    font-size: 1.5em;
+    color: #319177;
 }
 
-#logo-text:hover {
+#logo-text:hover, #logo-text:focus {
     text-decoration: none;
-    color: black;
+    color: #004953;
 }
