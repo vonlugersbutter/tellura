@@ -1,0 +1,27 @@
+[debug] [2020-08-01T22:20:32.118Z] ----------------------------------------------------------------------
+[debug] [2020-08-01T22:20:32.122Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ayesha shafay\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:tellura
+[debug] [2020-08-01T22:20:32.122Z] CLI Version:   8.6.0
+[debug] [2020-08-01T22:20:32.122Z] Platform:      win32
+[debug] [2020-08-01T22:20:32.122Z] Node Version:  v12.18.1
+[debug] [2020-08-01T22:20:32.124Z] Time:          Sat Aug 01 2020 18:20:32 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-08-01T22:20:32.124Z] ----------------------------------------------------------------------
+[debug] [2020-08-01T22:20:32.125Z] 
+[debug] [2020-08-01T22:20:32.138Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-01T22:20:32.139Z] > authorizing via signed-in user
+[debug] [2020-08-01T22:20:32.140Z] [iam] checking project tellura-science for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-08-01T22:20:32.144Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/tellura-science:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-08-01T22:20:32.430Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 01 Aug 2020 22:20:33 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=178","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-01T22:20:32.438Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/tellura-science  
+ 
+[debug] [2020-08-01T22:20:32.640Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 01 Aug 2020 22:20:33 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-01T22:20:32.653Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:120:11)
+    at Object.join (path.js:375:7)
+    at Object.checkFunctionsSDKVersion [as fn] (C:\Users\ayesha shafay\AppData\Roaming\npm\node_modules\firebase-tools\lib\checkFirebaseSDKVersion.js:34:28)
+    at Command.<anonymous> (C:\Users\ayesha shafay\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:160:30)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ayesha shafay\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: An unexpected error has occurred.
