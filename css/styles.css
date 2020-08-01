@@ -187,3 +187,9 @@ a:hover, a:focus {
 #logo-text-footer:hover {
     color: #5b41b7;
 }
+
+#about-social-media {
+    text-align: center;
+    color: #5390d9;
+    font-size: 2em;
+}
