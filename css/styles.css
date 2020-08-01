@@ -7,6 +7,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.navbar {    
+    position: absolute;
+}
+
 h1 {
     font-family: 'Merriweather', serif;
     color: #5b41b7;
@@ -33,7 +37,7 @@ h1 {
 
 #logo-text:hover, #logo-text:focus {
     text-decoration: none;
-    color: #80ffdb;
+    color: #5390d9;
 }
 
 a:hover, a:focus {
@@ -55,10 +59,11 @@ a:hover, a:focus {
 #navbarDropdown, .dropdown-menu, #nav-item-color {
     color: white;
     padding-left: 40px;
+    padding-right: 40px;
 }
 
 .dropdown-item {
-    color:#5390d9
+    color:#5390d9;
 }
 
 .dropdown-item:hover {
@@ -70,7 +75,7 @@ a:hover, a:focus {
 }
 
 #navbarDropdown:hover, .dropdown-menu:hover, #nav-item-color:hover {
-    color: white;
+    color: #5390d9;
 }
 
 .dropdown-toggle::after {
@@ -119,9 +124,8 @@ a:hover, a:focus {
 }
 
 @media (max-width: 760px) {
-    nav.navbar {
-      background: white;
-      margin-left: 0;
+    .navbar {
+      background-color: white!important;
     }
     
     .dropdown-item, #navbarDropdown, .dropdown-menu, #nav-item-color {
@@ -133,7 +137,8 @@ a:hover, a:focus {
 
     #logo-text {
         color: #5390d9;
-        margin-left: auto;
+        text-align: left;
+        margin-left: 1em;
     }
     
     .dropdown-item:hover, #navbarDropdown:hover, .dropdown-menu:hover, #nav-item-color:hover, #logo-text:hover {
@@ -159,10 +164,8 @@ a:hover, a:focus {
     }
 }
 
-.navbar {    
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    z-index: 99999;
+@media (max-width: 300px) {
+    #main-title {
+        font-size: 3em;
+    }
 }
