@@ -169,3 +169,21 @@ a:hover, a:focus {
         font-size: 3em;
     }
 }
+
+.panel-footer {
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+    border-top: 0;
+}
+
+#logo-text-footer {
+    color: #5390d9;
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+}
+
+#logo-text-footer:hover {
+    color: #5b41b7;
+}
