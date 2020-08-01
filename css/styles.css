@@ -15,7 +15,6 @@ h1 {
 }
 
 #header-nav {
-    background-color: white;
     border-radius: 0;
     border: 0;
 }
@@ -24,16 +23,12 @@ h1 {
     font-family: 'Merriweather', serif;
     font-size: 2em;
     color: white;
-    margin-right:0px;
+    margin-right:auto;
     margin-left: auto;
 }
 
 .nav-item > nav {
     color: white;
-}
-
-.navbar {
-    margin-left: 100px;
 }
 
 #logo-text:hover, #logo-text:focus {
@@ -96,6 +91,7 @@ a:hover, a:focus {
     padding-top: 4em;
     color: #ffffff;
     font-size: 4em;
+    text-align: center;
 }
 
 .jumbotron {
@@ -154,5 +150,11 @@ a:hover, a:focus {
     
     .custom-toggler .navbar-toggler-icon:hover {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(83,144,217,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+}
+
+@media (min-width: 1024px) {
+    #main-title {
+        text-align: left;
     }
 }
