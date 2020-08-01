@@ -158,3 +158,11 @@ a:hover, a:focus {
         text-align: left;
     }
 }
+
+.navbar {    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 99999;
+}

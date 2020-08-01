@@ -12,39 +12,40 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid">
-          <nav class="navbar navbar-expand-md navbar-expand-lg navbar-light justify-content-between">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light fixed-top bg-transparent justify-content-between" style="background-color: transparent;">
             <div class="container-fluid">
                 <button class="navbar-toggler ml-auto custom-toggler float-right" type="button" data-toggle="collapse" data-target=".dual-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                
                 <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link pl-0" href="#">Home <span class="sr-only">Home</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="//codeply.com">Codeply</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                    </ul>
+                  <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Guides
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-item-color" href="#">Journal</a>
+                    </li>
+                  </ul>
+
                 </div>
-                <a class="navbar-brand text-center text-lg-left float-left" href="index.html" id="logo-text">tellura</a>
+
+                <a class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25" href="index.html" id="logo-text">tellura</a>
                 <div class="navbar-collapse collapse dual-nav w-50 order-2">
                     <ul class="nav navbar-nav ml-auto">
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" id="nav-item-color" href="#">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" id="nav-item-color" href="#">About</a>
                     </li>
                     </ul>
                 </div>
@@ -52,7 +53,7 @@
         </nav>
 
           <!--
-          <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light fixed-top bg-success">
+          <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light fixed-top bg-transparent">
             <a class="navbar-brand text-center text-lg-left float-left" href="index.html" id="logo-text">tellura</a>
             <button class="navbar-toggler ml-auto custom-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
