@@ -1,9 +1,14 @@
 /*Merriweather and Open Sans*/
 
 body {
-    font-size: 14px;
+    font-size: 16px;
     color: black;
     font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .navbar {    
