@@ -241,3 +241,27 @@ a:hover, a:focus {
         margin-bottom: 30px;
     }
 }
+
+#jumbotron-banner {
+    height: 20em;
+    padding-top: 0px;
+}
+
+.page-title {
+    padding-top: 3em;
+    color: #ffffff;
+    font-size: 4em;
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .page-title {
+        text-align: left;
+    }
+}
+
+@media (max-width: 300px) {
+    .page-title {
+        font-size: 3em;
+    }
+}
