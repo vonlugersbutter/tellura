@@ -16,7 +16,7 @@ p {
 }
 
 h1 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather', sans-serif;
     color: #5b41b7;
     font-size: 2em;
     padding-top: 1em;
@@ -28,7 +28,7 @@ h1 {
 }
 
 #logo-text {
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather', sans-serif;
     font-size: 2em;
     color: white;
     margin-right:auto;
@@ -184,7 +184,7 @@ a:hover, a:focus {
 
 #logo-text-footer {
     color: #5390d9;
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather', sans-serif;
     font-size: 2em;
 }
 
