@@ -1,9 +1,9 @@
 ScrollReveal().reveal('.reveal');
 
 $(function() {
-    $("#navigation").load("nav.html");
+    $("#navigation").load("/public/nav.html");
 });
 
 $(function() {
-    $("#footer").load("footer.html");
+    $("#footer").load("/public/footer.html");
 });
