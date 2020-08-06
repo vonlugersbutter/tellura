@@ -1,6 +1,5 @@
 ScrollReveal().reveal('.reveal');
 
-/*
 $(function() {
     $("#navigation").load("nav.html");
 });
@@ -8,4 +7,3 @@ $(function() {
 $(function() {
     $("#footer").load("footer.html");
 });
-*/
