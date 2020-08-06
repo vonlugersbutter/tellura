@@ -1,14 +1,13 @@
 /*Merriweather and Open Sans*/
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-size: 16px;
     color: black;
     font-family: 'Open Sans', sans-serif;
-}
-
-p {
-    padding-top: 1em;
-    padding-bottom: 1em;
 }
 
 .navbar {    
@@ -20,6 +19,19 @@ h1 {
     color: #5b41b7;
     font-size: 2em;
     padding-top: 1em;
+}
+
+h2 {
+    color: #5390d9;
+    font-family: 'Merriweather', sans-serif;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+}
+
+h3 {
+    color: #5390d9;
+    font-family: 'Merriweather', sans-serif;
+    padding-top: 2em;
 }
 
 #header-nav {
@@ -271,11 +283,47 @@ a:hover, a:focus {
     }
 }
 
-#guide {
+div#guide > p {
+    display:inline-block;
+    background-color: whitesmoke;
+    color: #5390d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1em;
+    height: 10em;
+    margin-bottom: 0px;
+    padding: 0;
+    border: none;
+}
+
+div#guide > p:hover {
     background-color: #5390d9;
     color: white;
-    margin: 1em;
-    height: 10em;
-    text-align: center;
-    vertical-align: bottom;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.row {
+    margin-top: 3.5em;
+}
+
+ol {
+    counter-reset: list;
+}
+ol > li {
+    list-style: none;
+}
+ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    overflow-wrap: break-word;
 }
