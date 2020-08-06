@@ -270,3 +270,12 @@ a:hover, a:focus {
         font-size: 3em;
     }
 }
+
+#guide {
+    background-color: #5390d9;
+    color: white;
+    margin: 1em;
+    height: 10em;
+    text-align: center;
+    vertical-align: bottom;
+}
