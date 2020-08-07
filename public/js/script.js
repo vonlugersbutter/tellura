@@ -1,7 +1,7 @@
 ScrollReveal().reveal('.reveal');
 
 $(function() {
-    $("#navigation").load("nav.html");
+    $("#navigation").load("../nav.html");
 });
 
 $(function() {
