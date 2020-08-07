@@ -1,9 +1,9 @@
 ScrollReveal().reveal('.reveal');
 
 $(function() {
-    $("#navigation").load("beefy/nav.html");
+    $("#navigation").load("/nav.html");
 });
 
 $(function() {
-    $("#footer").load("beefy/footer.html");
+    $("#footer").load("/footer.html");
 });
