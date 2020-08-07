@@ -172,6 +172,8 @@ a:hover, a:focus {
     .custom-toggler .navbar-toggler-icon:hover {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(83,144,217,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     }
+
+    
 }
 
 @media (min-width: 1024px) {
@@ -264,6 +266,12 @@ a:hover, a:focus {
     padding-top: 0px;
 }
 
+@media (max-width: 768px) {
+    #jumbotron-banner {
+        height: 25em;
+    }
+}
+
 .page-title {
     padding-top: 3em;
     color: #ffffff;
@@ -303,6 +311,12 @@ div#guide > p:hover {
     color: white;
     opacity: 0.6;
     cursor: pointer;
+}
+
+@media (max-width: 576px) {
+    div#guide > p {
+        margin: 1em 0;
+    }
 }
 
 .row {
