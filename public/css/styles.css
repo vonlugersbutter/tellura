@@ -5,9 +5,10 @@
 }
 
 body {
-    font-size: 16px;
+    font-size: 14px;
     color: black;
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
 }
 
 .navbar {    
@@ -26,6 +27,7 @@ h2 {
     font-family: 'Merriweather', sans-serif;
     padding-top: 2em;
     padding-bottom: 0.5em;
+    font-size: 150%;
 }
 
 h3 {
@@ -340,4 +342,17 @@ img {
 
 a {
     overflow-wrap: break-word;
+}
+
+.btn {
+    color: #48bfe3;
+    border-color: #48bfe3;
+    background-color: white;
+    margin-top: 1em;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #5390d9;
+    border-color: white;
 }
