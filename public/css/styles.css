@@ -293,7 +293,7 @@ a:hover, a:focus {
     }
 }
 
-div#guide > p {
+div#guide > p, div#guide > a {
     display:inline-block;
     background-color: whitesmoke;
     color: #5390d9;
@@ -308,7 +308,7 @@ div#guide > p {
     border: none;
 }
 
-div#guide > p:hover {
+div#guide > p:hover, div#guide > a:hover {
     background-color: #5390d9;
     color: white;
     opacity: 0.6;
@@ -355,4 +355,45 @@ a {
     color: white;
     background-color: #5390d9;
     border-color: white;
+}
+
+.accordion {
+  background-color: #ffffff;
+  color: #5390d9;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin-top: 1em;
+}
+
+div#guide > p:hover > a {
+    color: #ffffff;
 }
