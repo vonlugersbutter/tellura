@@ -74,7 +74,7 @@ a:hover, a:focus {
     border: none;
 } 
 
-#navbarDropdown, .dropdown-menu, #nav-item-color, #guidebutton {
+#navbarDropdown, .dropdown-menu, #nav-item-color {
     color: white;
     padding-left: 40px;
     padding-right: 40px;
@@ -88,21 +88,16 @@ a:hover, a:focus {
     color: #6448c9;
 }
 
-.dropdown-menu, #nav-item-color, #navbarDropdown, #guidebutton {
+.dropdown-menu, #nav-item-color, #navbarDropdown {
     font-size: 1.15em;
 }
 
-#navbarDropdown:hover, .dropdown-menu:hover, #nav-item-color:hover, #guidebutton:hover {
+#navbarDropdown:hover, .dropdown-menu:hover, #nav-item-color:hover {
     color: #5390d9;
 }
 
 .dropdown-toggle::after {
     content: none;
-}
-
-#guidebutton {
-  margin-top: 0px;
-  padding-top: 0px;
 }
 
 @media all and (min-width: 992px) {
