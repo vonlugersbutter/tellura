@@ -319,10 +319,6 @@ div#guide > p:hover, div#guide > a:hover {
     }
 }
 
-.row {
-    margin-top: 3.5em;
-}
-
 ol {
     counter-reset: list;
 }
@@ -394,4 +390,36 @@ a {
 
 div#guide > p:hover > a {
     color: #ffffff;
+}
+
+#myBtnContainer > .btn {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.container {
+    overflow: hidden;
+  }
+  
+.filterDiv {
+    display: none; /* Hidden by default */
+  }
+
+.show {
+    display: block;
+  }
+
+figcaption {
+    margin-top: 5px;
+    font-size: 11px;
+    font-style: italic;
+}
+
+figure {
+    margin: 2em;
+}
+
+figure.pull-left {
+    margin-left: 0px;
+    margin-right: 3em;
 }
