@@ -423,3 +423,36 @@ figure.pull-left {
     margin-left: 0px;
     margin-right: 3em;
 }
+
+.name {
+    margin-top: 1em;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.position {
+    font-style: italic;
+}
+
+#card {
+    margin-bottom: 0px;
+    border: none;
+    color: black;
+
+}
+
+#card > img {
+    border-radius: 60px;
+}
+
+.btn:hover {
+    background-color: #eee;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 1em;
+  }
