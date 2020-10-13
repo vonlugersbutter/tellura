@@ -456,3 +456,12 @@ figure.pull-left {
     width: 50%;
     margin-bottom: 1em;
   }
+
+.modal-body, .modal-header > * {
+    margin-left: 1em;
+    margin-right: 1.5em;
+}
+
+.modal-body > img {
+    margin-bottom: 2em;
+}

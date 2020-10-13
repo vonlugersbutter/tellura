@@ -24,19 +24,68 @@
         <h2>guides</h2>
         <p>We currently have three categories of guides available, which are all written for middle and high school students. All of them explore different aspects of science research, why it is important, and how you can learn more about it.</p>
 
+        <div id="myBtnContainer" class="d-flex justify-content-center">
+          <button class="btn active" onclick="filterSelection('sciencelit')">Science Literature </button>
+          <button class="btn" onclick="filterSelection('academics')">Academics</button>
+          <button class="btn" onclick="filterSelection('involvement')">Getting Involved</button>
+        </div>
+        
+        <br>
+
         <div class="row">
-          <div class="col-sm-4" id="guide">
-            <a href="science-literature.html">Science Literature</a>
+
+          <!--Abstracts and How to Write Them-->
+          <div class="filterDiv sciencelit col-sm-4">
+
+          <div id="guide"><p class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Abstracts: What They Are & How to Write Them</p></div>
+
+          <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title">Abstracts: What They Are & How to Write Them</h3>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>An essential part of any scientific research paper or article is an abstract. An abstract is a paragraph that should give the reader an idea of what a paper is about, and how the information will be presented. In short, it should be a concise summary of an otherwise long article. Often, this is the only component of the article that is provided to the public; the rest must be purchased. There are essential elements in every abstract which should capture the main idea of the study, the key points of the paper, and also the interest of the reader.</p>
+                  
+                  <p>There are essential elements in every abstract which should capture the main idea of the study, the key points of the paper, and also the interest of the reader.</p>
+                  <ol>
+                    <li><b><i>Purpose:</i></b> This is where the topic of the paper is introduced to the reader, and where the purpose of the research is stated. This section should describe the significance of the report and importance of the topic, which will explain the problem that was addressed through the research.</li>
+                    <li><b><i>Method:</i></b> This section will explain how the research was conducted, as well as any experiments involved. This could include the equipment used, the design of the experiment, and how participants were selected and assigned for the experiment.</li>
+                    <li><b><i>Results:</i></b> An abstract should also contain a brief explanation of the results gathered from the study, and what was discovered from the experiment/research. It is recommended to just include the main findings, and not every detail of the results.</li>
+                    <li><b><i>Conclusion:</i></b> Lastly, a conclusion is necessary to tie everything together. This final section should explain why the results are significant, and their implications in society, and also what has been contributed through the results of this research. It is also important to include actions that could be taken to apply the findings of the investigation.</li>
+                  </ol>
+                  <p>There are two types of abstracts in scientific writing: </p>
+                  <p>One is an <b>informative abstract</b>, which is the form that was described and shown above. This abstract should contain the purpose, method, results, and conclusions, and should be between one paragraph and a page, depending on the length of the paper.</p>
+
+                  <p>The second type is a <b>descriptive abstract</b>. This should be much shorter than an informative abstract, as it should only include the purpose and the method. The rest is for the reader to discover in the actual report. Generally, descriptive abstracts should be around one hundred words.</p>
+
+                  <p><b>Below is an example of a study and its <u>informative abstract</u>:</b></p>
+
+                  <img src="images/abstract-example.PNG" alt="example of an annotated abstract">
+                  <p><b>Tips to write an effective abstract:</b></p>
+                  <p>Never go into too much detail in an abstract, as there is still an entire paper to follow. It should state the key points and ideas so that the reader can grasp the bigger picture. Remember to follow the structure of the paper when writing an abstract. Each section in the abstract should be presented in the same order as the paper. Always write the abstract after having completed a draft of the paper. This will make it easy to highlight the key points from the paper in the abstract, and will provide an effective summary of the writing to follow.</p>
+                  <br>
+                  <h4>References</h4>
+                  <br>
+                    <p><a href="https://writing.wisc.edu/handbook/assignments/writing-an-abstract-for-your-research-paper/">https://writing.wisc.edu/handbook/assignments/writing-an-abstract-for-your-research-paper/</a></p>
+                    <p><a href="https://owl.purdue.edu/owl/subject_specific_writing/writing_in_engineering/handbook_on_report_formats/abstracts_and_executive_summaries.html">https://owl.purdue.edu/owl/subject_specific_writing/writing_in_engineering/handbook_on_report_formats/abstracts_and_executive_summaries.html</a></p>
+                  <br>
+                  <div class="text-center"><a class="btn btn-primary text-center" href="documents/Abstracts.pdf" role="button">View as PDF</a></div>
+                </div>
+              </div>
+            </div>
           </div>
-          
-          <div class="col-sm-4" id="guide">
-            <a href="academics.html">Academics</a>
           </div>
 
-          <div class="col-sm-4" id="guide">
-            <a href="getting-involved.html">Getting Involved</a>
-          </div>
+          
         </div>
+        
+        
+
       </div>
 
 

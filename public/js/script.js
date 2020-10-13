@@ -70,4 +70,3 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
-
