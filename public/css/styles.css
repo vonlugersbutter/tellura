@@ -465,3 +465,7 @@ figure.pull-left {
 .modal-body > img {
     margin-bottom: 2em;
 }
+
+.modal-body p {
+    word-wrap: break-word;
+}
