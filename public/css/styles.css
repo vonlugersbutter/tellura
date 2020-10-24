@@ -458,8 +458,8 @@ figure.pull-left {
   }
 
 .modal-body, .modal-header > * {
-    margin-left: 1em;
-    margin-right: 1.5em;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .modal-body > img {
