@@ -70,3 +70,68 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+function ayesha() {
+  var x = document.getElementById("ayesha");
+  x.classList.toggle("beef");
+}
+
+function catherine() {
+  var x = document.getElementById("catherine");
+  x.classList.toggle("beef");
+}
+
+function vanessa() {
+  var x = document.getElementById("vanessa");
+  x.classList.toggle("beef");
+}
+
+function mahsa() {
+  var x = document.getElementById("mahsa");
+  x.classList.toggle("beef");
+}
+
+function karena() {
+  var x = document.getElementById("karena");
+  x.classList.toggle("beef");
+}
+
+function maha() {
+  var x = document.getElementById("maha");
+  x.classList.toggle("beef");
+}
+
+function sarah() {
+  var x = document.getElementById("sarah");
+  x.classList.toggle("beef");
+}
+
+function manvir() {
+  var x = document.getElementById("manvir");
+  x.classList.toggle("beef");
+}
+
+function jessica() {
+  var x = document.getElementById("jessica");
+  x.classList.toggle("beef");
+}
+
+function gurdial() {
+  var x = document.getElementById("gurdial");
+  x.classList.toggle("beef");
+}
+
+function alyssa() {
+  var x = document.getElementById("alyssa");
+  x.classList.toggle("beef");
+}
+
+function maggie() {
+  var x = document.getElementById("maggie");
+  x.classList.toggle("beef");
+}
+
+function hamda() {
+  var x = document.getElementById("hamda");
+  x.classList.toggle("beef");
+}
