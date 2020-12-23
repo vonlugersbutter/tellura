@@ -1,15 +1,15 @@
 ScrollReveal().reveal('.reveal');
 
 $(function() {
-    $("#navigation").load("nav.html");
+    $("#navigation").load("/nav.html");
 });
 
 $(function() {
-    $("#footer").load("footer.html");
+    $("#footer").load("/footer.html");
 });
 
 $(function() {
-  $("#teamcards").load("teamcard.html");
+  $("#teamcards").load("/teamcard.html");
 })
 
 var acc = document.getElementsByClassName("accordion");
