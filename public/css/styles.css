@@ -469,3 +469,70 @@ figure.pull-left {
 .modal-body p {
     word-wrap: break-word;
 }
+
+#card {
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.col-sm-3 {
+	align-items: center;
+}
+
+@media (max-width: 992px) {
+	#card {
+		padding-left: 20%;
+	}
+}
+
+.btn-light {
+	margin-bottom: 2.5em;
+}
+
+.beef {
+	display: none;
+}
+
+.boi {
+	font-size: 15px;
+}
+
+.btn-primary, #teamcard {
+	background-color: white;
+}
+
+#teamcard {
+	text-align: center;
+}
+
+.name {
+    margin-top: 1em;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+#teamcard > .name {
+	font-size: 100%;
+	margin-bottom: 1.5em;
+}
+
+.position {
+    font-style: italic;
+}
+
+#card, #teamcard {
+    margin-bottom: 1.5em;
+    border: none;
+    color: black;
+
+}
+
+#card > img {
+    border-radius: 50%;
+}
+
+#teamcard > img {
+	border-radius: 50%;
+}
+
