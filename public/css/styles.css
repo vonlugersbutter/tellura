@@ -544,3 +544,12 @@ figure.pull-left {
 #guide {
     margin-top: 1.5em;
 }
+
+table, th, td {
+    border: 1px solid black;
+    font-size: 12px;
+  }
+
+  th, td {
+    padding: 10px;
+  }
