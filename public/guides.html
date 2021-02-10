@@ -801,6 +801,73 @@
             </div>
             </div>
           </div>
+        
+        <!--chi square-->
+        <div class="filterDiv sciencelit academics col-sm-4">
+          <div id="guide"><p class="btn btn-primary" data-toggle="modal" data-target=".chi">What is Chi Square Analysis? Why is it Important?
+          </p></div>
+
+          <div class="modal fade chi" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title">What is Chi Square Analysis? Why is it Important?</h3>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p><i>Written by Karena So, Edited by Catherine Fei</i></p>
+                  <p>The chi-square (&Chi;<sup>2</sup>) test, also known as the “goodness-of-fit” test, was developed to compare the experimental observation with the expected outcome. Chi-square analysis is typically used to determine whether frequencies of the data observed in a study are due to chance or if there is a relationship between the variables.</p>
+                  <p>The possible outcomes from the chi-square test are:</p>
+                  <ul>
+                    <li>A small chi-square value which means that the observed data fits the expected data hence, there is likely to be a relationship between the variables</li>
+                    <li>A large chi-square value which means that the observed data does not fit the expected data hence, there is not likely to be a relationship between the variables</li>
+                  </ul>
+                  <p>Below is the equation used for chi-square analysis:</p>
+                  <img src="images/chi.PNG" alt="" class="img-fluid mx-auto d-block">
+                  <p>&Chi;<sup>2</sup> = chi-square values</p>
+                  <p>O = observed values</p>
+                  <p>E = expected values</p>
+                  <p>∑ = the ‘sum of’</p>
+                  <p>The interpretation of the chi-square test results is based on a probability (P) value. The P value represents whether the test results are significant or not. The P value depends on two factors:</p>
+                  <ol>
+                    <li>&Chi;<sup>2</sup> value</li>
+                    <li>Degree of freedom (df)</li>
+                  </ol>
+                  <p>The degree of freedom represents the number of independent values that are free to vary. The calculation for the degree of freedom is:</p>
+                  <p style="margin-left: 3em;">Number of outcome classes (n) - 1</p>
+                  <p>The &Chi;<sup>2</sup> value and degree of freedom are used to determine the P value, which determines whether the null, or chance, hypothesis can be rejected.</p>
+                  <p>The null hypothesis states that there is no relationship between the two variables being studied. If the P value is lower than 0.05, that means there is less than a 5% probability that if the results were random, the observed data would be different. The null hypothesis would be rejected in this case, because the results are likely due to chance. If the P value is greater than 0.05, the null hypothesis cannot be rejected and the results are not random. Note that the null hypothesis cannot be accepted, only rejected or failed to be rejected.</p>
+                  <p>This information is obtained using a chi-square table. In a chi-square table, the &Chi;<sup>2</sup> values are in the body of the table, the df values are on the far left column, and the P values are on the top row. Below is an example of the first five rows of a chi-square table:</p>
+                  <img src="images/chi2.PNG" alt="" class="img-fluid mx-auto d-block">
+                  <p>It is important to know that a high P value does not mean that the hypothesis of the experiment is correct. The P value is only a method used to make reasonable decisions based on the probability that the results are significant.</p>
+                  <p>Below is an example of a chi-square analysis done on the influence of gender on voting behaviour based on the results of the 2001 Senate election in Vermont State.</p>
+                  <img src="images/chi3.PNG" alt="" class="img-fluid mx-auto d-block">
+                  <p>The values inside brackets represent the expected values and the values outside of the brackets represent the actual values. Note that in the equation above, the i and j index represented the rows and columns of the table.</p>
+                  <p>Listed below is a summary of the steps for finding the P value for the exemplary study:</p>
+                  <ol>
+                    <li>Using the observed and expected data, the value of &Chi;<sup>2</sup> was calculated to be 5.50</li>
+                    <li>The degree of freedom is 1 because there are two independent variables that can vary</li>
+                    <li>Using a chi-square table and the chi-square (&Chi;<sup>2</sup>) and df values, the probability was found to be 0.019</li>
+                    <li>The P value was interpreted to develop a conclusion, in this case the P value is less than 0.05</li>
+                  </ol>
+                  <p>Therefore, the null hypothesis was rejected and it was concluded that gender did not have an impact on one’s voting behaviour. In other words, the two variables were independent of each other.</p>
+                  <br>
+                  <h4>References</h4>
+                  <br>
+                    <ol>
+                      <li>Rana, R., Singhal, R. (2015). Chi-square test and its application in hypothesis testing. <i>Journal of the Practice of Cardiovascular Sciences, 1</i>(1), 69-71. <a href="https://doi.org/10.4103/2395-5414.157577">https://doi.org/10.4103/2395-5414.157577</a></li>
+                      <li>Howell, D.C. (n.d.). <i>Chi-Square Test - Analysis of Contingency Tables</i>. <a href="https://www.uvm.edu/~statdhtx/StatPages/R/Chi-Square-Folder/Chi%20square%20test%20analysis%20of%20contingency%20tables_David_Howell%20.pdf">https://www.uvm.edu/~statdhtx/StatPages/R/Chi-Square-Folder/Chi%20square%20test%20analysis%20of%20contingency%20tables_David_Howell%20.pdf</a></li>
+                    </ol>
+                  <br>
+                  <div class="text-center"><a class="btn btn-primary text-center" href="documents/What is Chi Square Analysis_ Why is it Important_.pdf" role="button">View as PDF</a></div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+
 
         </div><!--End of #main-content-->
 
