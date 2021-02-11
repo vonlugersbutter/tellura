@@ -135,3 +135,13 @@ function hamda() {
   var x = document.getElementById("hamda");
   x.classList.toggle("beef");
 }
+
+function rija() {
+  var x = document.getElementById("rija");
+  x.classList.toggle("beef");
+}
+
+function hadiqa() {
+  var x = document.getElementById("hadiqa");
+  x.classList.toggle("beef");
+}
