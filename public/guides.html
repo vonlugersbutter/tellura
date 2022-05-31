@@ -30,6 +30,128 @@
       </div>
       <br>
         <div class="row">
+          <!--Appraisals-->
+          <div class="filterDiv sciencelit col-sm-4">
+
+            <div id="guide"><p class="btn btn-primary" data-toggle="modal" data-target=".pid">Prevalence, Incidence, Duration</p></div>
+
+            <div class="modal fade pid" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title">Prevalence, Incidence, and Duration</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p><i>Written by Jessica Wang</i></p>
+                    <p><i>Glossary</i></p>
+                    <p><b>Epidemiology:</b> The study of the distribution (i.e., frequency and pattern) and the determinants (i.e., causes and risk factors) of diseases in a population (e.g., neighbourhood, school, city, state, etc.)</p>
+                    <p><b>Population:</b> A distinct group of individuals that is grouped together by a common feature. For example, McMaster students can be considered as a population, as they attend the same university.</p>
+                    <p><b>Proportion:</b> A unitless fraction.</p>
+
+                    <p>Many of you have seen the words “prevalence,” “incidence,” and “duration” in recent reports about COVID-19. You may know that a higher prevalence or incidence of COVID-19 indicates that more people are sick, but do you know the exact <b>epidemiological</b> definition of these terms?</p>
+
+                    <p><i>Prevalence</i></p>
+
+                    <p>Prevalence refers to the proportion of people with a disease within a population. This can include people who just became ill and people who had the disease for a long period of time.</p>
+                    <img src="images/prevalence.jpg">
+                    <p>There are mainly two types of prevalence:</p>
+                    <ol>
+                      <li><b>Point prevalence:</b> At a certain point in time, how many people have the disease? Think of this as a camera snapshot at one specific time. <b>Example:</b> At 1 PM on October 20th, 2021, the resident physician at McMaster Children’s Hospital tested 100 schoolchildren from a local elementary school for COVID-19. Twelve children produced a positive result. The <b>point prevalence</b> of COVID-19 within this population of schoolchildren is 12/100, or 12%, at the time of testing.</li>
+                      <li><b>Period prevalence:</b> over a time period, how many people have (or had) the disease? <b>Example:</b> McMaster Children’s Hospital tested 10,000 children from the Hamilton-Wentworth District School Board for COVID-19. Because there were so many children, the testing took three days to complete from September 25th, 2021. One thousand and seventeen children produced a positive result. The <b>period prevalence</b> of COVID-19 within this population of children is 1017/10000, or 10.17%, from September 25th, 2021 til September 28th, 2021.</li>
+                    </ol>
+                    <p>*Note that the line between point and period prevalence is often blurred because it is not possible to test or diagnose a large sample from the population at the exact same time (for example, it is not possible to test 100 children at the exact same time in the first example). The most important takeaway is that prevalence refers to the proportion of a population that has a given disease at a given time.</p>
+                    
+                    <p><i>Incidence</i></p>
+
+                    <p>Compared to prevalence, incidence focuses on the proportion of NEW cases, or people that just became sick, over a time period.</p>
+                    <img src="images/incidence.jpg">
+                    <p>Comparing the above formula to the one used for prevalence calculations, we can see that the denominator for incidence calculation refers to the number of people AT RISK, or in other words, the number of people who CAN get the disease. If someone already has the disease at the beginning of the time period, they are excluded from the denominator.</p>
+                    <p><b>Example:</b> The Hamilton General Hospital wanted to find out the incidence of COVID-19 from September 2020 to October 2020 (a one month period). They tested 1,000 people from the general public in September and found that 255 people already have the disease. During the test in October, they found that 150 people developed new cases of COVID-19.</p>
+                    <p>The incidence in this case can be found by calculating:</p>
+                    <img src="images/incidence calc.jpg.jpg">
+                    <p>Remember that the denominator only includes people who are AT RISK for the disease; therefore, we have to exclude the 255 people who were already sick at the start of the study. Compare that to the calculation for the prevalence of COVID-19 in this example:</p>
+                    <img src="images/prevalence calc.jpg">
+                    <p>We can see that the denominator includes all people in the population sample for prevalence, while the numerator now includes people who were sick at the start and people who developed the illness during the study period.</p>
+                    <p><i>Duration</i></p>
+                    <p>Duration is the amount of time when a person is ill. Disease duration is counted starting when an individual first becomes sick, and stops being counted when an individual is either cured, dead, or left the study.</p>
+                    <p><b>Example:</b> A research subject in a COVID-19 study was diagnosed with the disease on June 1st, 2020 and received an antiviral medication. She was able to recover and was tested negative for the disease on June 20th, 2020. Her duration of COVID-19 was 19 days. This is shorter compared to another subject, who did not take the medication and had a duration of 25 days.</p>
+                    <p><i>Relationships between duration, incidence, and prevalence</i></p>
+                    <img src="images/pid.jpg">
+                    <p>When the duration of a disease is long, such as cancer and other chronic illnesses, prevalence is generally higher relative to incidence. This is because most people with the disease likely had it for a long time and there are fewer new cases. </p>
+                    <p><b>Example:</b> In a cancer study, researchers tried to determine the prevalence and incidence of cancer in a patient dataset spanning over five years. According to the data, 301 of the 1,500 subjects had cancer at the start of the study period, and 125 subjects developed cancer during the 5-year period.</p>
+                    <p>The incidence of the disease over the 5-year period is:</p>
+                    <img src="images/incidence calc 2.jpg">
+                    <p>Whereas the prevalence of the disease at the end of the 5-year period is:</p>
+                    <img src="images/prevalence calc 2.jpg">
+                    <p>As we can see, because cancer is a chronic disease, people who are sick at the start of the period are still sick at the end of the period. Thus, they are counted in the prevalence at the end of the period. But because they are not new cases, they are not counted in the incidence during the study period.</p>
+                    <p>This is in contrast to diseases like the common cold with a short duration. In this case, incidence is much higher than prevalence, as people who have the disease recover very quickly. </p>
+                    <p><b>Example:</b> Researchers tried to determine the incidence and prevalence of the common cold in a patient dataset spanning over two months. According to the data, 200 of the 1,000 subjects had the common cold at the start; however, all of them recovered within one month. Four hundred subjects caught the common cold during the study period, but 200 of them also recovered before the end of the period. </p>
+                    <p>The incidence of the disease over the 2-month period is:</p>
+                    <img src="images/incidence calc 3.jpg">
+                    <p>Whereas the prevalence of the disease at the end of the 2-month period is:</p>
+                    <img src="images/prevalence calc 3.jpg">
+                    <p>Pay special attention to the prevalence calculation in this case. We can see that we are adding together the 200 patients who were sick at the start and the 400 patients who developed new cold cases during the study for the numerator. However, we have to also subtract the 400 patients who recovered before the study ended, as they no longer have the disease. As a result, the incidence is much higher compared to the prevalence.</p>
+                    <p><i>More Examples</i></p>
+                    <p>Your research team is investigating a new disease called epidemiology fever (EF). You found that of the population of 100 townsfolk you studied, 20 people already had EF, and 10 people got EF from 2020 to 2021. What is the prevalence of EF in 2020 and 2021, and what is the incidence of EF during the study period?</p>
+                    <img src="images/more calcs.jpg">
+                    <p>(Celentano, 2019)</p>
+
+
+                    <br>
+                    <h4>References</h4>
+                    <br>
+                      <p>Celentano, D. D., Szklo, M., & Gordis, L. (2019). Gordis Epidemiology (6th edition). Elsevier.</p>
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!--Appraisals-->
+          <div class="filterDiv sciencelit col-sm-4">
+
+            <div id="guide"><p class="btn btn-primary" data-toggle="modal" data-target=".appraisals">What is a Critical Appraisal?</p></div>
+
+            <div class="modal fade appraisals" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title">What is a Critical Appraisal?</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p><i>Written by Cindy Zhang</i></p>
+                    <p><i>What is a critical appraisal...in simple terms?</i></p>
+                    <p>Critical appraisal is the process of systematically examining research to judge its trustworthiness, and its value and relevance in a particular context (Morrison, 2017). In other words, it is the process of looking at a study through the eyes of an evaluator. Although we look to papers for information, we cannot trust them completely - even those published in the most prestigious journals. It is important that we look at a paper critically so that we can identify its strengths and weaknesses. Perhaps there is a limitation to a certain methodology used or there is an alternate explanation for the results that the researchers did not cover. These are all things to look for in a critical appraisal. </p>
+                    <p>Critical appraisal is a crucial skill in scientific research. Being able to look at a study critically allows you to assess the validity of the information that you are presented with. For example, if you were doing a research assignment in school, you would need to know whether a study can be considered reliable. Or if you were writing a systematic review, you would need to critically appraise each of the studies that you select, and this involves a more formal process. </p>
+                    <p><i>What does it look like? </i></p>
+                    <p>A critical appraisal can come in many forms, and this depends on the type of study that you are looking at. A clinical trial that follows human participants would provide different things to look at than a study using animal models. In a clinical study, some things to consider are the recruitment of subjects (whether the sample size is defined and justified, whether participants are representative of the whole population), how outcome factors are measured (whether all outcomes are measured, if any confounding variables are accounted for), and how the data is interpreted and presented (whether the appropriate statistical tests were used) (Al-Jundi & Sakka, 2017). These are just some of the questions that can be asked in a critical appraisal, and they would often be presented in the form of a checklist. This is a way of documenting your critical appraisal process and making it transparent and easy to follow for someone else. Here is a simplified version of the checklist that you can apply to clinical studies: </p>
+                    <img src="images/appraisal.jpg">
+                    <p>(Al-Jundi & Sakka, 2017)</p>
+                    <p><i>What to include</i></p>
+                    <p>Although the format of your critical appraisal will vary depending on the type of study, there are some broad elements that are found in any critical appraisal. First, the <b>validity or trustworthiness</b> of the methodology is analyzed. In this section, you can analyze the participant selection process in a case study, look at risk of bias in a survey study, or point out the technical limitations of lab techniques in a non-clinical study. There are numerous factors to consider and your goal is to determine whether the researchers have addressed their research question in a reliable manner. </p>
+                    <p>Second, the <b>value and relevance</b> of the study is evaluated. The key question to ask here is: what are the gaps in research in this area of research and what are the implications of the study’s findings? It is important to situate a study within the context of what is already known and determine what new information it adds to the existing knowledge in its field. </p>
+                    <p><i>Conclusion </i></p>
+                    <p>A critical appraisal can take on many forms depending on the type of study being analyzed, but they can all give you insight on the quality of the study and enrich your understanding. Mastering the process of critical appraisal allows you to think critically about the information that you read.</p>
+                    
+                    <br>
+                    <h4>References</h4>
+                    <br>
+                      <p>Al-Jundi, A., & Sakka, S. (2017). Critical appraisal of Clinical Research. JOURNAL OF CLINICAL AND DIAGNOSTIC RESEARCH. https://doi.org/10.7860/jcdr/2017/26047.9942 </p>
+                      <p>Morrison, K. (2019, May 13). Dissecting the literature: The importance of critical appraisal. Royal College of Surgeons. Retrieved October 13, 2021, from https://www.rcseng.ac.uk/library-and-publications/library/blog/dissecting-the-literature-the-importance-of-critical-appraisal/.</p>
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <!--Abstracts and How to Write Them-->
           <div class="filterDiv sciencelit col-sm-4">
