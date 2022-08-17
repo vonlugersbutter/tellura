@@ -221,7 +221,7 @@ a:hover, a:focus {
 }
 
 .fa-envelope {
-    background: #48bfe3;
+    background: #48bfe3!important;
     color: white;
 }
 
