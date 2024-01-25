@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tellura</title>
+    <link rel = "icon" href ="icons/smalllogo.png" type = "image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <meta name="google-site-verification" content="_-tDELvYRh34CJ0WNajs7zmkAjEfv6xWHnPYpBKRWTQ" />
+</head>
+<body>
+  <header><div id="navigation"></div></header>
+  
+  
+  <div id="main-content" class="container-fluid">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container"><h1 id="main-title">a guide to frontiers in science.</h1></div>
+    </div>
+   
+
+    <div id="introduction" class="container reveal d-flex justify-content-center">
+      <h2>applications open!</h2>
+    </div>
+    <div id="introduction" class="container reveal d-flex justify-content-center">
+      <p>Tellura is accepting new club members! Apply <a href="join-us.html">here</a>.</p>
+    </div>
+
+    <div id="introduction" class="container reveal"><h2>welcome to tellura</h2></div>
+
+    <div id="introduction" class="container reveal">
+      <div class="row">
+        <div class="col-sm-6">
+          <p>We work to provide accessible guides, materials, and posts that help students learn about scientific research. Science involves formulating hypotheses, testing them, and then creating conclusions from their experiments. And, it involves sharing this information with the global scientific community through journals, articles, and more.</p>
+          <p>It can be difficult to find the credible sources that are centralized, which is why Tellura is here. The content on this website is published periodically by McMaster University undergraduate students. We have a variety of initiatives and resources available to help younger students learn about research.</p>
+        </div>
+        <div class="col-sm-6">
+          We have <a href="guides.html">guides</a>, which are lengthy articles that thoroughly explain a concept within science research and academia. Our <a href="blog.html">blog</a> contains brief posts about current news, research, and organization information. And, if you want to get involved with our organization, explore either the <a href="youthjournal.html">youth journal</a> or <a href="join-us.html">join us</a> pages. 
+        </div>
+      </div> <!--End of row-->
+
+      <div class="row">
+        <div class="col-sm-4">
+          <h2>join us</h2>
+          <p>Tellura is still accepting general members, and will continue to have new initiatives and departments. If you are a McMaster University student and want to join our team, apply below! :)</p>
+          <br>
+          <div class="text-center"><a class="btn btn-primary text-center" href="join-us.html" role="button">apply here</a></div> 
+        </div>
+
+        <div class="col-sm-4">
+          <br>
+          <br>
+          <img src="images/gradient1.png" alt="" width="230px" height="230px" class="mx-auto d-block">
+        </div>
+        
+        <div class="col-sm-4">
+          <h2 class="text-md-right text-lg-right">meet our team</h2>
+          <p class="text-md-right text-lg-right">Check out our staff, who work to provide all of the content on Tellura. All of us are McMaster University students that are committed towards providing accessible guides and materials about science research to younger audiences.</p>
+          <div class="text-center"><a class="btn btn-primary text-center" href="about.html" role="button">about us</a></div>
+        </div>
+      </div>
+    </div> <!--End of intro-->
+  </div> <!--End of #main-content-->
+
+  <footer class="panel-footer"><div id="footer"></div></footer>
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBJbaCcxl4zQ1LNV_Qe8WST1ZgCkwC3ehs",
+    authDomain: "tellura-sci.firebaseapp.com",
+    databaseURL: "https://tellura-sci.firebaseio.com",
+    projectId: "tellura-sci",
+    storageBucket: "tellura-sci.appspot.com",
+    messagingSenderId: "537574931024",
+    appId: "1:537574931024:web:cb05b3512f6e429eac6f55",
+    measurementId: "G-4EZ0X5K7JD"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+</body>
+</html>
